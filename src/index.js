@@ -127,10 +127,11 @@ const Navigation = () => (
 const Home = () => (
   <div>
     <Navigation />
-    <Hero image="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" />
+    <Hero image="/images/home.jpg" />
     <h2>Hi, we're Alisha and Chanel.</h2>
-    <h3>This is our project.</h3>
-    <p>foo foo foo foo foo foof foo foo foo foo foo fooffoo foo foo foo foo fooffoo foo foo foo foo fooffoo foo foo foo foo fooffoo foo foo foo foo foof.</p>
+    <p>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. 
+
+Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</p>
     <Paragraph align="center">
       <Link to="/about">Learn more</Link>
     </Paragraph>
