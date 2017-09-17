@@ -132,15 +132,17 @@ const Home = () => (
   <div>
     <Navigation />
     <Hero image="/images/home.jpg" />
-    <Main>
-      <h2>Hi, we're Alisha and Chanel.</h2>
-      <p>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. 
 
-  Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</p>
-      <Paragraph align="center">
-        <Link to="/about">Learn more</Link>
-      </Paragraph>
-    </Main>
+    <Main>
+
+    <h2>Hi, we're Alisha and Chanel.</h2>
+    <p>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. </p>
+
+<p>Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</p>
+    <Paragraph align="center">
+      <Link to="/about">Learn more</Link>
+    </Paragraph>
+</Main>
   </div>
 )
 
