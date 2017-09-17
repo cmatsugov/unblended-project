@@ -122,51 +122,65 @@ const Navigation = () => (
   </NavBar>
 )
 
+const Main = styled.main`
+  padding: 20px;
+`
+
 // Pages
 
 const Home = () => (
   <div>
     <Navigation />
     <Hero image="/images/home.jpg" />
-    <h2>Hi, we're Alisha and Chanel.</h2>
-    <p>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. 
+    <Main>
+      <h2>Hi, we're Alisha and Chanel.</h2>
+      <p>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. 
 
-Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</p>
-    <Paragraph align="center">
-      <Link to="/about">Learn more</Link>
-    </Paragraph>
+  Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</p>
+      <Paragraph align="center">
+        <Link to="/about">Learn more</Link>
+      </Paragraph>
+    </Main>
   </div>
 )
 
 const About = () => (
   <div>
     <Navigation />
-    <h2>About</h2>
-    <p>about info here.</p>
+    <Main>
+      <h2>About</h2>
+      <p>about info here.</p>
+    </Main>
   </div>
 )
 
 const Bios = () => (
   <div>
     <Navigation />
-    <h2>Bios</h2>
-    <p>bios info here.</p>
+    <Main>    
+      <h2>Bios</h2>
+      <p>bios info here.</p>
+    </Main>
   </div>
 )
 
 const Resources = () => (
   <div>
     <Navigation />
-    <h2>Resources</h2>
-    <p>resources info here.</p>
+    <Main>
+      <h2>Resources</h2>
+      <p>resources info here.</p>
+    </Main>
   </div>
 )
 
 const Contact = () => (
   <div>
     <Navigation />
-    <h2>Contact</h2>
-    <p>contact info here.</p>
+    <Main>
+      <h2>Contact</h2>
+      <p>contact info here.</p>
+    </Main>
   </div>
 )
 
