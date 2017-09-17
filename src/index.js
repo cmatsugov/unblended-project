@@ -189,18 +189,16 @@ const Contact = () => (
 // Router
 
 const App = () => (
-  <div>
-    <Router history={history}>
-      <Switch>
-        <Route path="/about" component={About} />
-        <Route path="/bios" component={Bios} />
-        <Route path="/resources" component={Resources} />
-        <Route path="/contact" component={Contact} />
-        <Route component={Home} />
-        <Redirect to="/" />
-      </Switch>
-    </Router>
-  </div>
+  <Router history={history}>
+    <Switch>
+      <Route path="/about" component={About} />
+      <Route path="/bios" component={Bios} />
+      <Route path="/resources" component={Resources} />
+      <Route path="/contact" component={Contact} />
+      <Route component={Home} />
+      <Redirect to="/" />
+    </Switch>
+  </Router>
 );
 
 
