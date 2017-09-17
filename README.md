@@ -9,7 +9,7 @@ yarn start # press enter
 
 To deploy changes to the site
 
-0. `yarn build && git add -A && git commit -m "you commit message goes here"`
+0. `yarn deploy`
 
 0. `git fetch && git rebase`
 

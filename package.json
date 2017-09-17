@@ -14,6 +14,7 @@
     "react-scripts": "1.0.0"
   },
   "scripts": {
+    "deploy": "yarn build && git add -A && git commit -m 'updated site, deploying changes' && git fetch && git rebase && git push",
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf docs && mv build docs && cp docs/index.html docs/404.html",
     "test": "react-scripts test --env=jsdom",
