@@ -1,0 +1,21 @@
+{
+  "name": "unblended",
+  "description": null,
+  "version": "0.0.28",
+  "dependencies": {
+    "styled-components": "2.1.2",
+    "react-router-dom": "4.2.2",
+    "react-dom": "15.5.3",
+    "react": "15.5.3",
+    "history": "4.7.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
