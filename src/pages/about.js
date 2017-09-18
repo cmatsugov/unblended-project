@@ -14,6 +14,7 @@ export default () => (
   <Page>
     <Navigation />
     <Hero image="/images/closeup.jpg" />
+    <Paragraph>photograph by Giselle Buchanan @vishuddha</Paragraph>
     <Main>
       <H2>About</H2>
       <Paragraph>We (Japanese American artist and educator Chanel Matsunami Govreau and Ghanaian American writer and organizer Alisha Acquaye) are intersectional feminists inspired by the unique challenges and rewards of our own friendship.</Paragraph>
