@@ -20,7 +20,7 @@ export default () => (
     <Hero image="/images/closeup.jpg">
       <H1>ABOUT US</H1>
     </Hero>
-    <Main style={{ paddingTop: 30 }}>
+    <Main>
       <Paragraph style={{
         position: 'absolute',
         top: 4,
@@ -34,7 +34,6 @@ export default () => (
       <H2>Hi, we're Alisha and Chanel.</H2>
       <Paragraph>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. </Paragraph>
       <Paragraph>Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</Paragraph>
-      
     </Main>
     <Section title="First Steps">
       <Box border>
@@ -64,26 +63,24 @@ export default () => (
     <Paragraph color="primary" style={{
       margin: 0,
       fontSize: 72,
-      height: 30,
+      height: 40,
       textAlign: 'center',
       transform: 'translateY(-54px)'
     }}>⬇</Paragraph>
     <Section title="Outcome">
-      <Box>
-        <strong>WEBSITE</strong><br />
+      <Box align="center">
+        <Icon type="website" label="WEBSITE" />
         Houses all audio interviews, photography, and action plans
       </Box>
-      <Box>
-        <strong>ZINE</strong><br />
+      <Box align="center">
+        <Icon type="zine" label="ZINE" />
         Series of writing exercises and art activities for unpacking and empowering Black and Asian friendships
       </Box>
     </Section>
-    
     <Section title="Community Programming" background>
-      <Box>
+      <Box align="center">
         We are currently reaching out to potential community partners and funding sources to support and grow our project. 
       </Box>
-      
     </Section>
   </Page>
 )

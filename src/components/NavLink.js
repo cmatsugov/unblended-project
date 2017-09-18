@@ -11,9 +11,11 @@ padding: 4px 10px;
 transition: all .3s linear;
 font-family: ${({ theme }) => theme.bodyFont};
 &:hover {
-  background: ${({ theme }) => theme.secondary};
+  background: ${({ theme }) => theme.primary};
+  color: #fff;
 }
 &.active {
-  background: ${({ theme }) => theme.secondary};
+  background: ${({ theme }) => theme.primary};
+  color: #fff;
 }
 `;

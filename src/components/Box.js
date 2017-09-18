@@ -1,10 +1,11 @@
 import Paragraph from './Paragraph'
+import media from '../media'
 
 export default Paragraph.extend`
-flex: 1;
 padding: 20px;
 margin: 10px;
 border-radius: 3px;
+max-width: 320px;
 color: ${({ theme }) => theme.primary};
 border: ${({ border, theme }) => border ? `2px solid ${theme.primary}` : 'none'};
 & svg {
@@ -14,4 +15,7 @@ border: ${({ border, theme }) => border ? `2px solid ${theme.primary}` : 'none'}
   padding-bottom: 20px;
   fill: ${({ theme }) => theme.primary};
 }
+${media.mobile`
+  flex-basis: 100%;
+`}
 `

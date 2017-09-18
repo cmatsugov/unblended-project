@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import H2 from './H2'
+import media from '../media'
 
 const SectionBg = styled.section`
 padding: 20px;
@@ -24,8 +25,11 @@ ${props => props.background
 
 const BoxContainer = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-contents: flex-start;
+${media.mobile`
+  flex-flow: row wrap
+`}
 `
 
 export default ({ title, children, background, ...props }) => (
