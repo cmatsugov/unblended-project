@@ -14,12 +14,20 @@ import Anchor from '../components/Anchor'
 export default () => (
   <Page>
     <Navigation />
-    <Hero
-      image="/images/closeup.jpg">
+    <Hero image="/images/closeup.jpg">
       <H1>ABOUT US</H1>
-      </Hero>
-    <Paragraph>photograph by Giselle Buchanan @vishuddha</Paragraph>
+    </Hero>
     <Main>
+      <Paragraph style={{
+        position: 'absolute',
+        top: 10,
+        right: 10,
+        margin: 0,
+        fontSize: 10,
+        color: '#aaa'
+      }}>
+        photograph by Giselle Buchanan @vishuddha
+      </Paragraph>
       <H2>Hi, we're Alisha and Chanel.</H2>
       <Paragraph>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. </Paragraph>
       <Paragraph>Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</Paragraph>

@@ -36,7 +36,9 @@ justify-content: center;
 align-items: center;
 background: rgba(0, 0, 0, .6);
 text-align: center;
-animation: ${fadeIn} 1s linear 1 forwards;
+& * {
+  animation: ${fadeIn} 1s linear 1 forwards;
+}
 & h1, h2, h3, h4, p {
   color: #fff;
 }
