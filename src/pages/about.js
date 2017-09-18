@@ -10,6 +10,9 @@ import H4 from '../components/H4'
 import Paragraph from '../components/Paragraph'
 import Link from '../components/Link'
 import Anchor from '../components/Anchor'
+import Section from '../components/Section'
+import Box from '../components/Box'
+import Icon from '../components/Icon'
 
 export default () => (
   <Page>
@@ -17,11 +20,11 @@ export default () => (
     <Hero image="/images/closeup.jpg">
       <H1>ABOUT US</H1>
     </Hero>
-    <Main>
+    <Main style={{ paddingTop: 30 }}>
       <Paragraph style={{
         position: 'absolute',
-        top: 10,
-        right: 10,
+        top: 4,
+        right: 4,
         margin: 0,
         fontSize: 10,
         color: '#aaa'
@@ -35,5 +38,47 @@ export default () => (
       <Paragraph>We believe that, in order to nurture our interracial friendship in a time of everyday controversies, we must practice intimate and educational methods of co-empowerment and compassion.</Paragraph>
       <Paragraph>Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.  </Paragraph>
     </Main>
+    <Section title="First Steps">
+      <Box border>
+        Research Black + Asian alliances and interracial friendships
+      </Box>
+      <Box border>
+        Create a working model for interviewing participants
+      </Box>
+      <Box border>
+        Outreach to our network of People of Color to find Black and Asian friendship duos
+      </Box>
+    </Section>
+    <Section title="Our Process" background>
+      <Box border>
+        <Icon type="dialog" label="DIALOGUE" />
+        Co-facilitate dialogues with friendship duos to explore resources and solutions for successful interracial unity and co-empowerment
+      </Box>
+      <Box border>
+        <Icon type="photography" label="PHOTOGRAPHY" />
+        Co-direct photoshoots of participants in places of shared culture and memories or during actions of solidarity
+      </Box>
+      <Box border>
+        <Icon type="actionPlan" label="ACTION PLAN" />
+        Participants will contribute to an action plan that outlines specific methods for sustaining healthy and fruitful interracial friendships.
+      </Box>
+    </Section>
+    <Paragraph color="primary" style={{
+      margin: 0,
+      fontSize: 72,
+      height: 30,
+      textAlign: 'center',
+      transform: 'translateY(-54px)'
+    }}>⬇</Paragraph>
+    <Section title="Outcome">
+      <Box>
+        <strong>WEBSITE</strong><br />
+        Houses all audio interviews, photography, and action plans
+      </Box>
+      <Box>
+        <strong>ZINE</strong><br />
+        Series of writing exercises and art activities for unpacking and empowering Black and Asian friendships
+      </Box>
+    </Section>
   </Page>
 )
