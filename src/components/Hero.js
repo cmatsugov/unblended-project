@@ -16,12 +16,11 @@ const fadeIn = keyframes`
 const Hero = styled.div`
 position: relative;
 width: 100vw;
-min-height: 300px;
 background-size: cover;
 background-position: ${props => props.position
   ? props.position
   : 'center center'};
-height: calc(${props => props.full ? '100vh' : '50vh'} - 40px);
+height: calc(${props => props.full ? '100vh - 40px' : '300px'});
 background-image: url('${({ image }) => image}');
 `
 
