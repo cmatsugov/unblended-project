@@ -18,9 +18,9 @@ export default () => (
     <Navigation />
     <Hero image="/images/home.jpg">
       <H1>MEET ALISHA AND CHANEL</H1>
-      </Hero>
+    </Hero>
     <Main>
-     <H4>"As intersectional feminists of Asian and African backgrounds, we must practice intimate and educational methods of co-empowerment and compassion to nuture our interracial friendship." </H4>
+      <H4>"As intersectional feminists of Asian and African backgrounds, we must practice intimate and educational methods of co-empowerment and compassion to nuture our interracial friendship." </H4>
       <Bio
         name="Alisha Acquaye"
         title="Writer and Organizer"
