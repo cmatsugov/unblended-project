@@ -16,4 +16,14 @@ const props = {
   })),
   theme
 }
-render(<App {...props} />, document.getElementById('root'))
+
+const rootEl = document.getElementById('root')
+
+render(<App {...props} />, rootEl)
+
+if (module.hot) {
+  module.hot.accept(() => {
+    const NextApp = require('./components/App').default
+    render(<NextApp {...props} />, rootEl)
+  })
+}

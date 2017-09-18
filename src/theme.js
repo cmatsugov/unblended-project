@@ -1,6 +1,9 @@
 export default {
   // blue
-  primary: '#2f7bbf',
-  // yellow
-  highlight: '#ffed00',
+  primary: '#8338ec',
+  // blue
+  secondary: '#ffed00',
+  // typography
+  headingFont: '"Josefin Sans", helvetica, sans-serif',
+  bodyFont: '"Open Sans", helvetica, sans-serif'
 }

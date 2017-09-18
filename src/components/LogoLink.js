@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { NavLink as _NavLink } from 'react-router-dom'
 import media from '../media'
 
-export default styled(_NavLink) `
+export default styled(_NavLink)`
 display: flex;
 align-items: center;
 margin-right: auto;

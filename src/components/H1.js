@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-export default styled.h3`
-font-size: 26.5px;
+export default styled.h1`
 font-family: ${({ theme }) => theme.headingFont};
-font-weight: 300
+font-size: 48px;
+font-weight: 300;
 `
