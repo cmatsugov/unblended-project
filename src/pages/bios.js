@@ -43,6 +43,8 @@ export default () => (
     
       <Paragraph>Chanel Matsunami Govreau is an interdisciplinary artist and youth educator based in Brooklyn, NY. Under her artist name, Queen Gidrea, she uses her body, face, regalia, and word as a site of performance storytelling. Her work is inhabited be fabulous character exaggerations and futuristic prophecies based on her experiences as a queer, multiracial, Japanese-American woman. </Paragraph>
       <Paragraph>As an experimental documentarian, her recent photography and video work explores a dance style called Waacking that originated in the gay Black and Latino community in 1970's California and its current re-emergence in the urban dance scenes across Asia. Through this work,  she strives to create new ways to confront cultural appropriation and improve intercultural education as the urban dance scene grows increasingly global. </Paragraph>
+      <Paragraph>Working as a youth educator in NYC public schools, Chanel combines her experience in photo performance, social justice and digital arts to create challenging and engaging arts curriculum.  Through the power of digital photography and graphic design she encourages young people to create radical and imaginative worlds to examine their lives as multicultural artists. </Paragraph>
+      
       <Paragraph>
         <Link to="http://queengidrea.com/">Chanel's Artist Website</Link>
         </Paragraph>
