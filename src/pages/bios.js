@@ -4,6 +4,7 @@ import Page from '../components/Page'
 import Navigation from '../components/Navigation'
 import Hero from '../components/Hero'
 import Main from '../components/Main'
+import H1 from '../components/H1'
 import H2 from '../components/H2'
 import H3 from '../components/H3'
 import H4 from '../components/H4'
@@ -32,8 +33,11 @@ const Bio = ({ name, title, twitter, image, children }) => (
 export default () => (
   <Page>
     <Navigation />
+    <Hero image="/images/home.jpg">
+      <H1>MEET ALISHA AND CHANEL</H1>
+      </Hero>
     <Main>
-      <H2>Meet Alisha and Chanel</H2>
+     <H4>"As intersectional feminists of Asian and African backgrounds, we must practice intimate and educational methods of co-empowerment and compassion to nuture our interracial friendship." </H4>
       <Bio
         name="Alisha Acquaye"
         title="Writer and Organizer"
