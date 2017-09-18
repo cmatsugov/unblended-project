@@ -14,7 +14,6 @@ import Anchor from '../components/Anchor'
 export default () => (
   <Page>
     <Navigation />
-    
     <Hero
       image="/images/closeup.jpg">
       <H1>ABOUT US</H1>

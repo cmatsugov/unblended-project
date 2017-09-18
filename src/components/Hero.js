@@ -44,7 +44,7 @@ animation: ${fadeIn} 1s linear 1 forwards;
   text-transform: capitalize;
   text-shadow: 0 2px 3px rgba(0,0,0,1);
 }
-& ${Link} {
+& a {
   display: inline-block;
   border: 2px solid #fff;
   background: none;
@@ -55,7 +55,7 @@ animation: ${fadeIn} 1s linear 1 forwards;
   letter-spacing: 2px;
   transition: all .3s linear;
 }
-& ${Link}:hover {
+& a:hover {
   color: #fff;
   transform: translateY(-2px);
   background: ${({ theme }) => theme.primary};
