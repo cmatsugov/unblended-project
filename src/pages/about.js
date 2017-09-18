@@ -60,13 +60,9 @@ export default () => (
         Participants will contribute to an action plan that outlines specific methods for sustaining healthy and fruitful interracial friendships.
       </Box>
     </Section>
-    <Paragraph color="primary" style={{
-      margin: 0,
-      fontSize: 72,
-      height: 40,
-      textAlign: 'center',
-      transform: 'translateY(-54px)'
-    }}>⬇</Paragraph>
+    <Paragraph color="primary" style={{ margin: 0, textAlign: 'center' }}>
+      <img src="/images/downarrow.png" style={{ display: 'inline-block', height: 40 }} />
+    </Paragraph>
     <Section title="Outcome">
       <Box align="center">
         <Icon type="website" label="WEBSITE" />
