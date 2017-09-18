@@ -78,10 +78,10 @@ export default () => (
         Series of writing exercises and art activities for unpacking and empowering Black and Asian friendships
       </Box>
     </Section>
+    
     <Section title="Community Programming" background>
       <Box>
-        <Icon type="dialog" label="DIALOGUE" />
-        Co-facilitate dialogues with friendship duos to explore resources and solutions for successful interracial unity and co-empowerment
+        We are currently reaching out to potential community partners and funding sources to support and grow our project. 
       </Box>
       
     </Section>
