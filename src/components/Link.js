@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link as _Link } from 'react-router-dom'
 
-const Link = styled(_Link)`
+export const Link = styled(_Link)`
 padding: 8px;
 border-radius: 3px;
 color: #fff;
@@ -11,7 +11,7 @@ font-family: ${({ theme }) => theme.bodyFont};
 background: ${({ theme }) => theme.primary};
 `
 
-const ExternalLink = styled.a`
+export const ExternalLink = styled.a`
 padding: 8px;
 border-radius: 3px;
 color: #fff;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import Link from './Link'
+import { Link } from './Link'
 
 const fadeIn = keyframes`
  0% {
