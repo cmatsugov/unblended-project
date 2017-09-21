@@ -24,7 +24,7 @@ export default () => (
       <Bio
         name="Alisha Acquaye"
         title="Writer and Organizer"
-        twitter="@ali.the.prince"
+        
         image="/images/alishaheadshot.jpg">
         <Paragraph>Alisha Acquaye uses words to examine the sweet spot where pop culture, social justice and personal narrative meet. As a Ghanaian American writer, her essays explore the weird, oppressive and sometimes empowering ways Western culture and society interacts with non male bodies, blackness, sexuality, relationships and gender.</Paragraph>
         <Paragraph>Through personal essays, interviews, op-eds and journalism, Alisha’s work invites readers to contemplate intersectional identities, media, art, pop culture and the small yet significant steps we can take to make our world more loving and inclusive. Her work has been featured in Elle, Teen Vogue, Catapult, OkayAfrica, The Establishment and more.</Paragraph>
@@ -46,7 +46,7 @@ export default () => (
       <Bio
         name="Chanel Matsunami Govreau"
         title="Artist and Educator"
-        twitter="@queengidrea"
+      
         image="/images/chanelheadshot.jpg">
         <Paragraph>Chanel Matsunami Govreau is an interdisciplinary artist and youth educator based in Brooklyn, NY. Under her artist name, Queen Gidrea, she uses her body, face, regalia, and word as a site of performance storytelling. Her work is inhabited be fabulous character exaggerations and futuristic prophecies based on her experiences as a queer, multiracial, Japanese-American woman. </Paragraph>
         <Paragraph>As an experimental documentarian, her recent photography and video work explores a dance style called Waacking that originated in the gay Black and Latino community in 1970's California and its current re-emergence in the urban dance scenes across Asia. Through this work,  she strives to create new ways to confront cultural appropriation and improve intercultural education as the urban dance scene grows increasingly global. </Paragraph>
