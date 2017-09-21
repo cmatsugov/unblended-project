@@ -23,7 +23,7 @@ export default () => (
       <H2>Questions, Ideas, Collaborations?</H2>
       <H3>Email Us</H3>
       
-      <Paragraph>c.govreau(at)gmail.com</Paragraph>
+      <Paragraph>unblendedproject(at)gmail.com</Paragraph>
     </Main>
   </Page>
 )
