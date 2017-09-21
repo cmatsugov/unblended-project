@@ -32,18 +32,18 @@ export default () => (
         photograph by Giselle Buchanan @vishuddha
       </Paragraph>
       <H2>Hi, we're Alisha and Chanel.</H2>
-      <Paragraph>We believe that friendships between Black and Asian populations are key to achieving our mutual freedom. </Paragraph>
-      <Paragraph>Our project, Unblended, will use photography and interviews as a lens to celebrate and explore the complex, powerful and transformative alliances that are Afro and Asian Pacific Islander friendships.</Paragraph>
+      <Paragraph>We are close friends who believe that friendships between Black and Asian people are influential in social change and mutual liberation.  </Paragraph>
+      <Paragraph>Our project, Unblended, will use photography and dialogue to explore these transformative yet underrepresented friendships and uncover the solutions for sustaining successful interracial relationships.</Paragraph>
     </Main>
     <Section title="First Steps">
       <Box border>
-        Research Black + Asian alliances and interracial friendships
+        1. Research Black + Asian alliances and interracial friendships
       </Box>
       <Box border>
-        Create a working model for interviewing participants
+        2. Create a working model for interviewing participants
       </Box>
       <Box border>
-        Outreach to our network of People of Color to find Black and Asian friendship duos
+        3. Outreach to our network of People of Color to find Black and Asian friendship duos
       </Box>
     </Section>
     <Section title="Our Process" background>
@@ -78,5 +78,13 @@ export default () => (
         We are currently reaching out to potential community partners and funding sources to support and grow our project. 
       </Box>
     </Section>
+    <Section title="Contact Us">
+      <Box>
+      Interested in participating in our project?
+      <Paragraph align="center">
+      <Link to="/contact">Contact Us</Link>
+      </Paragraph>
+      </Box>
+      </Section>
   </Page>
 )

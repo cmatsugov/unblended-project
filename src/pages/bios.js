@@ -20,6 +20,16 @@ export default () => (
       <H1>MEET ALISHA AND CHANEL</H1>
     </Hero>
     <Main>
+    <Paragraph style={{
+        position: 'absolute',
+        top: 4,
+        right: 4,
+        margin: 0,
+        fontSize: 10,
+        color: '#aaa'
+      }}>
+        photographs by Giselle Buchanan @vishuddha
+      </Paragraph>
       <H4>"As intersectional feminists of Asian and African backgrounds, we must practice intimate and educational methods of co-empowerment and compassion to nuture our interracial friendship." </H4>
       <Bio
         name="Alisha Acquaye"

@@ -20,6 +20,16 @@ export default () => (
       
     </Hero>
     <Main>
+    <Paragraph style={{
+        position: 'absolute',
+        top: 4,
+        right: 4,
+        margin: 0,
+        fontSize: 10,
+        color: '#aaa'
+      }}>
+        photograph by Giselle Buchanan @vishuddha
+      </Paragraph>
       <H2>Questions, Ideas, Collaborations?</H2>
       <H3>Email Us</H3>
       
