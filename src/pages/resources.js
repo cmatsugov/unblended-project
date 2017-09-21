@@ -34,6 +34,9 @@ export default () => (
 by Fred Ho (Editor), Bill V. Mullen (Editor)</Anchor>
       </Paragraph>
       <Paragraph>
+        <Anchor to="http://socialdifference.columbia.edu/files/socialdiff/projects/Article__Mapping_the_Margins_by_Kimblere_Crenshaw.pdf">Mapping the Margins: Intersectionality, Identity Politics, and Violence Against Women of Color by Kimberle Crenshaw</Anchor>
+        </Paragraph>
+      <Paragraph>
         <H4>Want to Share a Resource?</H4>
       </Paragraph>
       <Paragraph>
