@@ -9,7 +9,17 @@
     homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
   -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <!-- For old IEs -->
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!-- For new browsers multisize ico  -->
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="%PUBLIC_URL%/favicon.ico">
+  <!-- Chrome for Android -->
+  <link rel="icon" sizes="192x192" href="%PUBLIC_URL%/favicon-192.png">
+  <!-- For iPhone 6+ downscaled for other devices -->
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="%PUBLIC_URL%/favicon-180.png">
+  <!-- For IE10 Metro -->
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="%PUBLIC_URL%/favicon-144.png">
   <!--
     Notice the use of %PUBLIC_URL% in the tags above.
     It will be replaced with the URL of the `public` folder during the build.
