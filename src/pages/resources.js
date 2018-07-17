@@ -15,7 +15,7 @@ export default () => (
   <Page>
     <Navigation />
     <Hero
-      image="/images/rise.jpg">
+      image="/images/resources.jpg">
       <H1>RESOURCES</H1>
       
     </Hero>
